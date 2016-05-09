@@ -1,0 +1,10 @@
+instances:
+    -
+        name: 52.23.171.74
+        user: root
+        passd: foobarbaz
+
+    -
+        name: 54.173.49.80
+        user: root
+        passd: foobarbaz
