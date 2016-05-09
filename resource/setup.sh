@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -e
+
 ### functions:
 function update_nginx_files()
 {

@@ -31,7 +31,6 @@ def connect_to_server(host, user, passd):
 
 def run(host, user, passd):
     """Execute the functions in order"""
-    create_zipfile()
     if len(passd) == 0:
         passd = getpass('Please enter the password for server: ')
     connect_to_server(host, user,passd)
@@ -39,6 +38,7 @@ def run(host, user, passd):
 
 if __name__ == "__main__":
 
+    create_zipfile()
     with open('config.yml') as data:
         data = yaml.load(data)
         for i in data['instances']:
