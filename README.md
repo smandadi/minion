@@ -1,10 +1,9 @@
 ## Synopsis
 
-- Minion is a simple tool to which can be used for configuration management, and it works similar to salt stack/Anisible.
-- Minion can be used to setup a light weight webserver and run php files.
+   - Minion is a simple tool which can be used for configuration management, and it    drives inspiration from salt stack/Anisible.
+   - Minion can be used to setup a light weight webserver and run php files.
 
 ## Logic
-
    - setup.py will package "resource" directory into a setup.zip file.
    - setup.zip file is deployed to minion clients, which is then unzipped.
    - setup.zip has a setup.sh, php and nginx conf file(s).
