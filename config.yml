@@ -8,3 +8,8 @@ instances:
         name: 54.173.49.80
         user: root
         passd: foobarbaz
+
+    -
+        name: 54.87.219.71
+        user: root
+        passd: foobarbaz
